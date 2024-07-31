@@ -1,0 +1,23 @@
+.postBanner {
+    background-image: linear-gradient(to bottom, var(--primary-bg), var(--secondary-bg));
+}
+
+.postBanner .vector {
+    padding: 180px;
+}
+
+.vector h3 {
+    font-size: 36px;
+}
+
+.vector span {
+    color: var(--light-text);
+}
+
+.triangle {
+    top: -50px;
+}
+
+.semiCircle {
+    bottom: 200px;
+}

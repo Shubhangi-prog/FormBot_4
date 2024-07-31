@@ -1,0 +1,63 @@
+.settings {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title {
+    font-size: 20px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.inputs {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputs input {
+    border: 1px solid #D0D0D0 !important;
+    padding: 10px 40px !important;
+}
+
+.inputs img {
+    position: absolute;
+    top: 9px;
+    width: 25px;
+}
+
+.inputs img:first-child {
+    left: 10px;
+}
+
+.inputs img:last-child {
+    right: 10px;
+    cursor: pointer;
+}
+
+.btnSubmit {
+    border-radius: 20px;
+    font-weight: normal;
+}
+
+.logout {
+    display: flex;
+    gap: 10px;
+    color: #CF3636;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}

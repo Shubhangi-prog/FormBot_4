@@ -1,0 +1,47 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.banner button {
+    font-size: 18px;
+    padding: 20px 30px;
+    font-weight: 500;
+    width: 280px;
+}
+
+.banner .vector {
+    position: relative;
+    text-align: center;
+    padding: 0 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.vector h1 {
+    background-image: linear-gradient(to right, #4b83ff, #B794F4);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.vector p {
+    color: var(--dark-text);
+}
+
+.vector img {
+    position: absolute;
+    height: 300px;
+}
+
+.triangle {
+    left: -130px;
+}
+
+.semiCircle {
+    right: -130px;
+}

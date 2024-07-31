@@ -1,0 +1,69 @@
+.chatbox .chat {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 8px;
+    max-width: calc(100% - 50px);
+}
+
+.chatbox img,
+.chatbox video {
+    width: 100%;
+    max-height: 250px;
+    max-width: 400px;
+}
+
+.chatbox .admin {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.chatbox .admin .chatHead {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.chatbox .admin span {
+    padding: 10px 15px;
+    border-radius: 5px;
+    max-width: fit-content;
+    background: #f8f7ff;
+    color: #000;
+}
+
+.chatbox .user {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chatbox .user .chat {
+    margin-bottom: 10px;
+    align-items: flex-end;
+}
+
+.chatbox .user button {
+    background: var(--accent-color);
+    color: #fff;
+    font-weight: normal;
+}
+
+.chatbox .user .chat .click::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .chatbox {
+        width: 100% !important;
+    }
+}

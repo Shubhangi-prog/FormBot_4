@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 10px;
+  font-family: var(--font-alt);
+}
+
+.navbar .action {
+  display: flex;
+  gap: 20px;
+}
+
+.action .btnLogin {
+  background: transparent;
+  color: #7ea6ff;
+  border: 1px solid #7ea6ff;
+}

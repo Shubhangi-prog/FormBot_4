@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap');
+
+:root {
+  --primary-bg: #171923;
+  --secondary-bg: #1A202C;
+  --accent-color: #1A5FFF;
+  --light-text: #A0AEC0;
+  --dark-text: #FFFFFFEB;
+  --border-color: rgba(255, 255, 255, 0.16);
+  --font-main: "Open Sans", sans-serif;
+  --font-alt: "Outfit", sans-serif;
+  --font-cursive: "Indie Flower", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main);
+}
+
+body {
+  color: var(--dark-text);
+  background: var(--primary-bg);
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+button {
+  outline: 0;
+  border: 0;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: var(--accent-color);
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+section {
+  padding: 100px 150px;
+  color: #fff;
+  text-align: center;
+}
+
+section h1 {
+  font-size: 72px;
+  font-family: var(--font-alt);
+  color: var(--dark-text);
+}
+
+section h3,
+div h3 {
+  color: var(--dark-text);
+  font-family: var(--font-alt);
+}
+
+section p,
+div p {
+  font-size: 20px;
+  color: var(--light-text);
+}
+
+label.error {
+  font-size: 14px;
+  color: #F55050;
+  font-weight: normal;
+}
+
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--border-color);
+  outline: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: transparent;
+  color: var(--dark-text);
+  font-size: 16px;
+}
+
+input.error,
+textarea.error {
+  border: 1px solid #F55050 !important;
+}
+
+.goback {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.Toastify__toast-container {
+  width: fit-content !important;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    padding: 20px 10px;
+  }
+}

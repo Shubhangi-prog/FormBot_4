@@ -1,0 +1,45 @@
+.auth {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--dark-text);
+    width: 500px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.vector {
+    position: absolute;
+}
+
+.triangleLayer {
+    top: 50%;
+    left: 1%;
+    transform: translateY(-50%);
+}
+
+.ellipsePink {
+    top: 20%;
+    right: 0;
+}
+
+.ellipseYellow {
+    bottom: 0;
+    right: 23%;
+}

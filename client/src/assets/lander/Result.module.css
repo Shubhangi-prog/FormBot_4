@@ -1,0 +1,78 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, var(--primary-bg) 70%, var(--secondary-bg) 100%);
+    gap: 30px;
+}
+
+.chatbox {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    width: 500px;
+    padding: 30px 20px 200px 20px;
+    display: block;
+    margin: 50px auto 100px auto;
+}
+
+.chatbox .admin span {
+    background: #1E293B !important;
+    color: #fff !important;
+}
+
+.features h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.features .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.card {
+    position: relative;
+    background: var(--secondary-bg);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0042da;
+    padding: 10px;
+    border-radius: 8px;
+    top: -30px;
+}
+
+.title {
+    background: var(--secondary-bg);
+    color: var(--dark-text);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.desc {
+    background: var(--secondary-bg);
+    color: #718096;
+}
+
+.brands h3 {
+    font-size: 25px;
+    margin: 50px auto;
+}
+
+.brand {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: 50px;
+}
+
+.brand img {
+    width: 180px;
+}

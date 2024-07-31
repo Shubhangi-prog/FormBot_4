@@ -1,0 +1,72 @@
+.shareLayout {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.chatbox {
+    width: 700px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.inputs input,
+.inputs .rating {
+    height: 45px;
+    width: 280px !important;
+    background: #fff !important;
+    border-radius: 5px !important;
+    color: #000 !important;
+    box-shadow: 0px 4px 6.3px 0px #00000040;
+}
+
+.inputs .submitBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 55px;
+}
+
+.inputs input:disabled,
+.inputs .submitBtn:disabled,
+.inputs .rating.disabled {
+    pointer-events: none;
+    background: #777777 !important;
+    color: #fff !important;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rating button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.rating .activeRating,
+.inputBtn:disabled {
+    pointer-events: none;
+    background: #FF8E21 !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .inputs input,
+    .inputs .rating {
+        width: 235px !important;
+    }
+}

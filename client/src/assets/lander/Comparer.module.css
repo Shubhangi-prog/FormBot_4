@@ -1,0 +1,102 @@
+.formCompare {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.types {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.oldForm,
+.newForm {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+}
+
+.oldForm form,
+.newForm .chatbox {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 25px;
+    flex: 1;
+}
+
+.icon {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.oldForm .icon {
+    background: #F87171CC;
+}
+
+.oldForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: var(--dark-text);
+}
+
+.oldForm .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.oldForm .inputCheck {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.oldForm form span {
+    color: #E53E3E;
+}
+
+.oldForm form input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+}
+
+.oldForm form button {
+    width: 25%;
+}
+
+.newForm .icon {
+    background: #4ADE80CC;
+}
+
+.newForm .tryit {
+    position: absolute;
+    top: -2px;
+    right: -40px;
+}
+
+.tryit span {
+    font-family: var(--font-cursive);
+    position: absolute;
+    top: -15px;
+    left: -60px;
+    font-size: 24px;
+}
+
+.tryit img {
+    height: 100px;
+    width: auto;
+    transform: rotate(30deg);
+}
+
+.chatbox .admin span {
+    background: #1E293B !important;
+    color: #fff !important;
+}
